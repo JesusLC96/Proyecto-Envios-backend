@@ -14,7 +14,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Envios.APIBusiness.DBEntity.csproj",
-      "projectName": "UPC.APIBusiness.DBEntity",
+      "projectName": "Envios.APIBusiness.DBEntity",
       "projectPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Envios.APIBusiness.DBEntity.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",

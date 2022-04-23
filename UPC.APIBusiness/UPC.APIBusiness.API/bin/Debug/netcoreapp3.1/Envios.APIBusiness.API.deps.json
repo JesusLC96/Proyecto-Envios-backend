@@ -29,8 +29,10 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "UPC.APIBusiness.API/1.0.0": {
+      "Envios.APIBusiness.API/1.0.0": {
         "dependencies": {
+          "Envios.APIBusiness.DBContext": "1.0.0",
+          "Envios.APIBusiness.DBEntity": "1.0.0",
           "FirebaseAdmin": "1.15.0",
           "IdentityServer4": "3.0.2",
           "IdentityServer4.AccessTokenValidation": "3.0.1",
@@ -43,8 +45,6 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0",
           "System.DirectoryServices": "5.0.0",
           "System.IO.Packaging": "5.0.0",
-          "UPC.APIBusiness.DBContext": "1.0.0",
-          "UPC.APIBusiness.DBEntity": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -315,10 +315,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "UPC.APIBusiness.API.dll": {}
+          "Envios.APIBusiness.API.dll": {}
         },
         "compile": {
-          "UPC.APIBusiness.API.dll": {}
+          "Envios.APIBusiness.API.dll": {}
         }
       },
       "Dapper/2.0.30": {
@@ -1241,27 +1241,27 @@
           "ref/netcoreapp3.0/System.Windows.Extensions.dll": {}
         }
       },
-      "UPC.APIBusiness.DBContext/1.0.0": {
+      "Envios.APIBusiness.DBContext/1.0.0": {
         "dependencies": {
           "Dapper": "2.0.30",
+          "Envios.APIBusiness.DBEntity": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
-          "System.Data.SqlClient": "4.7.0",
-          "UPC.APIBusiness.DBEntity": "1.0.0"
+          "System.Data.SqlClient": "4.7.0"
         },
         "runtime": {
-          "UPC.APIBusiness.DBContext.dll": {}
+          "Envios.APIBusiness.DBContext.dll": {}
         },
         "compile": {
-          "UPC.APIBusiness.DBContext.dll": {}
+          "Envios.APIBusiness.DBContext.dll": {}
         }
       },
-      "UPC.APIBusiness.DBEntity/1.0.0": {
+      "Envios.APIBusiness.DBEntity/1.0.0": {
         "runtime": {
-          "UPC.APIBusiness.DBEntity.dll": {}
+          "Envios.APIBusiness.DBEntity.dll": {}
         },
         "compile": {
-          "UPC.APIBusiness.DBEntity.dll": {}
+          "Envios.APIBusiness.DBEntity.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2875,7 +2875,7 @@
     }
   },
   "libraries": {
-    "UPC.APIBusiness.API/1.0.0": {
+    "Envios.APIBusiness.API/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3377,12 +3377,12 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "UPC.APIBusiness.DBContext/1.0.0": {
+    "Envios.APIBusiness.DBContext/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "UPC.APIBusiness.DBEntity/1.0.0": {
+    "Envios.APIBusiness.DBEntity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

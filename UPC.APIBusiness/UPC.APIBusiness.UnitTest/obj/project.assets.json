@@ -2834,10 +2834,12 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "UPC.APIBusiness.API/1.0.0": {
+      "Envios.APIBusiness.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Envios.APIBusiness.DBContext": "1.0.0",
+          "Envios.APIBusiness.DBEntity": "1.0.0",
           "FirebaseAdmin": "1.15.0",
           "IdentityServer4": "3.0.2",
           "IdentityServer4.AccessTokenValidation": "3.0.1",
@@ -2849,45 +2851,43 @@
           "Swashbuckle.AspNetCore.SwaggerGen": "5.0.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0",
           "System.DirectoryServices": "5.0.0",
-          "System.IO.Packaging": "5.0.0",
-          "UPC.APIBusiness.DBContext": "1.0.0",
-          "UPC.APIBusiness.DBEntity": "1.0.0"
+          "System.IO.Packaging": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/UPC.APIBusiness.API.dll": {}
+          "bin/placeholder/Envios.APIBusiness.API.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UPC.APIBusiness.API.dll": {}
+          "bin/placeholder/Envios.APIBusiness.API.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
       },
-      "UPC.APIBusiness.DBContext/1.0.0": {
+      "Envios.APIBusiness.DBContext/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Dapper": "2.0.30",
+          "Envios.APIBusiness.DBEntity": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
-          "System.Data.SqlClient": "4.7.0",
-          "UPC.APIBusiness.DBEntity": "1.0.0"
+          "System.Data.SqlClient": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/UPC.APIBusiness.DBContext.dll": {}
+          "bin/placeholder/Envios.APIBusiness.DBContext.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UPC.APIBusiness.DBContext.dll": {}
+          "bin/placeholder/Envios.APIBusiness.DBContext.dll": {}
         }
       },
-      "UPC.APIBusiness.DBEntity/1.0.0": {
+      "Envios.APIBusiness.DBEntity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/UPC.APIBusiness.DBEntity.dll": {}
+          "bin/placeholder/Envios.APIBusiness.DBEntity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UPC.APIBusiness.DBEntity.dll": {}
+          "bin/placeholder/Envios.APIBusiness.DBEntity.dll": {}
         }
       }
     }
@@ -9135,17 +9135,17 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "UPC.APIBusiness.API/1.0.0": {
+    "Envios.APIBusiness.API/1.0.0": {
       "type": "project",
       "path": "../UPC.APIBusiness.API/Envios.APIBusiness.API.csproj",
       "msbuildProject": "../UPC.APIBusiness.API/Envios.APIBusiness.API.csproj"
     },
-    "UPC.APIBusiness.DBContext/1.0.0": {
+    "Envios.APIBusiness.DBContext/1.0.0": {
       "type": "project",
       "path": "../UPC.APIBusiness.DBContext/Envios.APIBusiness.DBContext.csproj",
       "msbuildProject": "../UPC.APIBusiness.DBContext/Envios.APIBusiness.DBContext.csproj"
     },
-    "UPC.APIBusiness.DBEntity/1.0.0": {
+    "Envios.APIBusiness.DBEntity/1.0.0": {
       "type": "project",
       "path": "../UPC.APIBusiness.DBEntity/Envios.APIBusiness.DBEntity.csproj",
       "msbuildProject": "../UPC.APIBusiness.DBEntity/Envios.APIBusiness.DBEntity.csproj"
@@ -9153,11 +9153,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Envios.APIBusiness.API >= 1.0.0",
+      "Envios.APIBusiness.DBContext >= 1.0.0",
       "MSTest.TestAdapter >= 1.4.0",
       "MSTest.TestFramework >= 1.4.0",
-      "Microsoft.NET.Test.Sdk >= 16.0.1",
-      "UPC.APIBusiness.API >= 1.0.0",
-      "UPC.APIBusiness.DBContext >= 1.0.0"
+      "Microsoft.NET.Test.Sdk >= 16.0.1"
     ]
   },
   "packageFolders": {

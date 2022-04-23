@@ -6,16 +6,16 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "UPC.APIBusiness.DBContext/1.0.0": {
+      "Envios.APIBusiness.DBContext/1.0.0": {
         "dependencies": {
           "Dapper": "2.0.30",
+          "Envios.APIBusiness.DBEntity": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
-          "System.Data.SqlClient": "4.7.0",
-          "UPC.APIBusiness.DBEntity": "1.0.0"
+          "System.Data.SqlClient": "4.7.0"
         },
         "runtime": {
-          "UPC.APIBusiness.DBContext.dll": {}
+          "Envios.APIBusiness.DBContext.dll": {}
         }
       },
       "Dapper/2.0.30": {
@@ -252,15 +252,15 @@
         }
       },
       "System.Security.Principal.Windows/4.6.0": {},
-      "UPC.APIBusiness.DBEntity/1.0.0": {
+      "Envios.APIBusiness.DBEntity/1.0.0": {
         "runtime": {
-          "UPC.APIBusiness.DBEntity.dll": {}
+          "Envios.APIBusiness.DBEntity.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "UPC.APIBusiness.DBContext/1.0.0": {
+    "Envios.APIBusiness.DBContext/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -454,7 +454,7 @@
       "path": "system.security.principal.windows/4.6.0",
       "hashPath": "system.security.principal.windows.4.6.0.nupkg.sha512"
     },
-    "UPC.APIBusiness.DBEntity/1.0.0": {
+    "Envios.APIBusiness.DBEntity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
