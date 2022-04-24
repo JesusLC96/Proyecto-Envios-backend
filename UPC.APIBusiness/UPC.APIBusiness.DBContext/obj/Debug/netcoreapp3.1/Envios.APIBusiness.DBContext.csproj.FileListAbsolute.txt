@@ -4,10 +4,10 @@ C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backen
 C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.AssemblyInfo.cs
 C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.csproj.CoreCompileInputs.cache
 C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.csproj.CopyComplete
-C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.deps.json
-C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.dll
-C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.pdb
-C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\Envios.APIBusiness.DBEntity.dll
-C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\Envios.APIBusiness.DBEntity.pdb
-C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.dll
-C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\Envios.APIBusiness.DBContext.pdb
+C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.deps.json
+C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.dll
+C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.pdb
+C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
+C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb
+C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.dll
+C:\Users\Jesus\Documents\Des Web\Proyecto-Envios\Proyecto-Envios-back-end\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.pdb

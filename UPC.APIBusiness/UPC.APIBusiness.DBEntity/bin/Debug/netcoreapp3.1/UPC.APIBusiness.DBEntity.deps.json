@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Envios.APIBusiness.DBEntity/1.0.0": {
+      "UPC.APIBusiness.DBEntity/1.0.0": {
         "runtime": {
-          "Envios.APIBusiness.DBEntity.dll": {}
+          "UPC.APIBusiness.DBEntity.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Envios.APIBusiness.DBEntity/1.0.0": {
+    "UPC.APIBusiness.DBEntity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

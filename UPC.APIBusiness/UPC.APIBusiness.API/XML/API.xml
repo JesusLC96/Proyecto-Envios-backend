@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Envios.APIBusiness.API</name>
+        <name>UPC.APIBusiness.API</name>
     </assembly>
     <members>
         <member name="T:API.AppSettingsProvider">
