@@ -15,6 +15,7 @@ namespace DBEntity
         public double price { get; set; }
         public double weight { get; set; }
         public string paquete { get; set; }
+        public string nombre_estado { get; set; }
 
     }
 }
