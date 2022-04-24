@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<ProjectGuid>{3CB7210E-C87D-4222-8EFD-8D81C780DDAF}</ProjectGuid>
-	<RootNamespace>Envios..APIBusiness.DBContext</RootNamespace>
-	<AssemblyName>Envios.APIBusiness.DBContext</AssemblyName>
+	<RootNamespace>UPC.APIBusiness.DBContext</RootNamespace>
+	<AssemblyName>UPC.APIBusiness.DBContext</AssemblyName>
 	<ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
 

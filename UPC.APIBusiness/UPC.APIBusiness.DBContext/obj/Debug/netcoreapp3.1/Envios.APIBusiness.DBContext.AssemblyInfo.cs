@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Envios.APIBusiness.DBContext")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("UPC.APIBusiness.DBContext")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Envios.APIBusiness.DBContext")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Envios.APIBusiness.DBContext")]
+[assembly: System.Reflection.AssemblyProductAttribute("UPC.APIBusiness.DBContext")]
+[assembly: System.Reflection.AssemblyTitleAttribute("UPC.APIBusiness.DBContext")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

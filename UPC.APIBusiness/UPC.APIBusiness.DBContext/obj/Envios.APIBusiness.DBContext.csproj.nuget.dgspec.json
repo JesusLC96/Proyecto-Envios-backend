@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Envios.APIBusiness.DBContext.csproj",
-        "projectName": "Envios.APIBusiness.DBContext",
+        "projectName": "UPC.APIBusiness.DBContext",
         "projectPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Envios.APIBusiness.DBContext.csproj",
         "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\obj\\",
@@ -84,7 +84,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Envios.APIBusiness.DBEntity.csproj",
-        "projectName": "Envios.APIBusiness.DBEntity",
+        "projectName": "UPC.APIBusiness.DBEntity",
         "projectPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Envios.APIBusiness.DBEntity.csproj",
         "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",

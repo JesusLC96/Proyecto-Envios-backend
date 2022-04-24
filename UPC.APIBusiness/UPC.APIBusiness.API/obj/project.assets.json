@@ -934,31 +934,31 @@
           }
         }
       },
-      "Envios.APIBusiness.DBContext/1.0.0": {
+      "UPC.APIBusiness.DBContext/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Dapper": "2.0.30",
-          "Envios.APIBusiness.DBEntity": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0",
-          "System.Data.SqlClient": "4.7.0"
+          "System.Data.SqlClient": "4.7.0",
+          "UPC.APIBusiness.DBEntity": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Envios.APIBusiness.DBContext.dll": {}
+          "bin/placeholder/UPC.APIBusiness.DBContext.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Envios.APIBusiness.DBContext.dll": {}
+          "bin/placeholder/UPC.APIBusiness.DBContext.dll": {}
         }
       },
-      "Envios.APIBusiness.DBEntity/1.0.0": {
+      "UPC.APIBusiness.DBEntity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Envios.APIBusiness.DBEntity.dll": {}
+          "bin/placeholder/UPC.APIBusiness.DBEntity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Envios.APIBusiness.DBEntity.dll": {}
+          "bin/placeholder/UPC.APIBusiness.DBEntity.dll": {}
         }
       }
     }
@@ -2596,12 +2596,12 @@
         "version.txt"
       ]
     },
-    "Envios.APIBusiness.DBContext/1.0.0": {
+    "UPC.APIBusiness.DBContext/1.0.0": {
       "type": "project",
       "path": "../UPC.APIBusiness.DBContext/Envios.APIBusiness.DBContext.csproj",
       "msbuildProject": "../UPC.APIBusiness.DBContext/Envios.APIBusiness.DBContext.csproj"
     },
-    "Envios.APIBusiness.DBEntity/1.0.0": {
+    "UPC.APIBusiness.DBEntity/1.0.0": {
       "type": "project",
       "path": "../UPC.APIBusiness.DBEntity/Envios.APIBusiness.DBEntity.csproj",
       "msbuildProject": "../UPC.APIBusiness.DBEntity/Envios.APIBusiness.DBEntity.csproj"
@@ -2609,8 +2609,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Envios.APIBusiness.DBContext >= 1.0.0",
-      "Envios.APIBusiness.DBEntity >= 1.0.0",
       "FirebaseAdmin >= 1.15.0",
       "IdentityServer4 >= 3.0.2",
       "IdentityServer4.AccessTokenValidation >= 3.0.1",
@@ -2622,7 +2620,9 @@
       "Swashbuckle.AspNetCore.SwaggerGen >= 5.0.0",
       "Swashbuckle.AspNetCore.SwaggerUI >= 5.0.0",
       "System.DirectoryServices >= 5.0.0",
-      "System.IO.Packaging >= 5.0.0"
+      "System.IO.Packaging >= 5.0.0",
+      "UPC.APIBusiness.DBContext >= 1.0.0",
+      "UPC.APIBusiness.DBEntity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2632,7 +2632,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\Envios.APIBusiness.API.csproj",
-      "projectName": "Envios.APIBusiness.API",
+      "projectName": "UPC.APIBusiness.API",
       "projectPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\Envios.APIBusiness.API.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\obj\\",

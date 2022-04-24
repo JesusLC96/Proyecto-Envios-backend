@@ -4,8 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
 	<ProjectGuid>{3E9C5060-8A75-4963-897B-496525EF3F79}</ProjectGuid>
-	<RootNamespace>Envios.APIBusiness.API</RootNamespace>
-	<AssemblyName>Envios.APIBusiness.API</AssemblyName>
+	<RootNamespace>UPC.APIBusiness.API</RootNamespace>
+	<AssemblyName>UPC.APIBusiness.API</AssemblyName>
 	<ProjectTypeGuids>{4D0E4FB7-2DBB-4721-A599-956925840139};{A3A379D7-720D-4E19-8AAA-50B5FE21D977}</ProjectTypeGuids>
   </PropertyGroup>
 

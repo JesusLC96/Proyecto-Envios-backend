@@ -336,14 +336,14 @@
           }
         }
       },
-      "Envios.APIBusiness.DBEntity/1.0.0": {
+      "UPC.APIBusiness.DBEntity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Envios.APIBusiness.DBEntity.dll": {}
+          "bin/placeholder/UPC.APIBusiness.DBEntity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Envios.APIBusiness.DBEntity.dll": {}
+          "bin/placeholder/UPC.APIBusiness.DBEntity.dll": {}
         }
       }
     }
@@ -1059,7 +1059,7 @@
         "version.txt"
       ]
     },
-    "Envios.APIBusiness.DBEntity/1.0.0": {
+    "UPC.APIBusiness.DBEntity/1.0.0": {
       "type": "project",
       "path": "../UPC.APIBusiness.DBEntity/Envios.APIBusiness.DBEntity.csproj",
       "msbuildProject": "../UPC.APIBusiness.DBEntity/Envios.APIBusiness.DBEntity.csproj"
@@ -1068,10 +1068,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Dapper >= 2.0.30",
-      "Envios.APIBusiness.DBEntity >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 2.2.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 2.2.0",
-      "System.Data.SqlClient >= 4.7.0"
+      "System.Data.SqlClient >= 4.7.0",
+      "UPC.APIBusiness.DBEntity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1081,7 +1081,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Envios.APIBusiness.DBContext.csproj",
-      "projectName": "Envios.APIBusiness.DBContext",
+      "projectName": "UPC.APIBusiness.DBContext",
       "projectPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Envios.APIBusiness.DBContext.csproj",
       "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jesus\\Documents\\Des Web\\Proyecto-Envios\\Proyecto-Envios-back-end\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\obj\\",
