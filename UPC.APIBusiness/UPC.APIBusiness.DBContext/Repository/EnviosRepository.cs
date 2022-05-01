@@ -110,13 +110,13 @@ namespace DBContext
                 {
                     const string sql = "usp_Registrar_Nuevo_Pedido";
                     var p = new DynamicParameters();
-                    p.Add(name: "@COD_ORDEN", dbType: DbType.String, direction: ParameterDirection.Output);
-                    p.Add(name: "@IDUSER", dbType: DbType.Int32, direction: ParameterDirection.Input);
-                    p.Add(name: "@SRC_ADD", dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@DEST_ADD", dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@PRICE", dbType: DbType.Decimal, direction: ParameterDirection.Input);
-                    p.Add(name: "@WEIGHT", dbType: DbType.Decimal, direction: ParameterDirection.Input);
-                    p.Add(name: "@PAQUETE", dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@COD_ORDEN", value: nuevo_envio.cod_orden, dbType: DbType.String, direction: ParameterDirection.Output);
+                    p.Add(name: "@IDUSER", value: nuevo_envio.iduser, dbType: DbType.Int32, direction: ParameterDirection.Input);
+                    p.Add(name: "@SRC_ADD", value: nuevo_envio.src_add, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@DEST_ADD", value: nuevo_envio.dest_add, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@PRICE", value: nuevo_envio.price, dbType: DbType.Decimal, direction: ParameterDirection.Input);
+                    p.Add(name: "@WEIGHT", value: nuevo_envio.weight, dbType: DbType.Decimal, direction: ParameterDirection.Input);
+                    p.Add(name: "@PAQUETE", value: nuevo_envio.paquete, dbType: DbType.String, direction: ParameterDirection.Input);
 
                     db.Query<EntityUser>(sql: sql, param: p, commandType: CommandType.StoredProcedure).FirstOrDefault();
 
