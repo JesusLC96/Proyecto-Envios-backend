@@ -76,27 +76,34 @@
             
             </summary>
         </member>
-        <member name="T:API.LoginController">
+        <member name="T:API.UserController">
             <summary>
             
             </summary>
         </member>
-        <member name="M:API.LoginController.#ctor(DBContext.ILoginRepository)">
+        <member name="M:API.UserController.#ctor(DBContext.IUserRepository)">
             <summary>
             
             </summary>
             <param name="loginRepository"></param>
         </member>
-        <member name="M:API.LoginController.GetUsers">
+        <member name="M:API.UserController.GetUsers">
             <summary>
             
             </summary>
             <returns></returns>
         </member>
-        <member name="M:API.LoginController.GetUserByID(System.Int32)">
+        <member name="M:API.UserController.GetUserByID(System.Int32)">
             <summary>
             
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.UserController.RegistertUser(DBEntity.EntityUser)">
+            <summary>
+            
+            </summary>
+            <param name="user"></param>
             <returns></returns>
         </member>
         <member name="T:API.CustomErrorException">

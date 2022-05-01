@@ -5,10 +5,11 @@ using DBEntity;
 
 namespace DBContext
 {
-    public interface ILoginRepository
+    public interface IUserRepository
     {
         EntityBaseResponse GetUsers();
         EntityBaseResponse GetUserByID(int id);
-        EntityBaseResponse InsertUser(EntityLogin login);
+        EntityBaseResponse RegistertUser(EntityUser user);
+        EntityBaseResponse Login(EntityLogin login);
     }
 }

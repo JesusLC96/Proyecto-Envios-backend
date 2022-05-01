@@ -62,7 +62,7 @@ namespace API
                   options.Authority = AppSettingsProvider.config.UrlBaseIdentityServer;
                   options.RequireHttpsMetadata = false;
                   options.RefreshOnIssuerKeyNotFound = true;
-                  options.Audience = "API-APP-UPC";
+                  options.Audience = "API-APP-ENVIOS";
               });
 
 
@@ -120,7 +120,7 @@ namespace API
 
             //TODO: Registrar las interfaces para Inyección de Dependencias
 
-            services.AddTransient<ILoginRepository, LoginRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
 
             services.AddTransient<IEnviosRepository, EnviosRepository>();
 
