@@ -109,7 +109,7 @@ namespace DBContext
                 {
                     const string sql = "usp_Registrar_Usuario";
                     var p = new DynamicParameters();
-                    p.Add(name: "@IDUSER", dbType: DbType.Int32, direction: ParameterDirection.Output);
+                    p.Add(name: "@USERID", dbType: DbType.Int32, direction: ParameterDirection.Output);
                     p.Add(name: "@USERNAME", dbType: DbType.String, direction: ParameterDirection.Input);
                     p.Add(name: "@PASSWORD", dbType: DbType.String, direction: ParameterDirection.Input);
                     p.Add(name: "@NAME", dbType: DbType.String, direction: ParameterDirection.Input);
@@ -120,7 +120,7 @@ namespace DBContext
 
                     db.Query<EntityUser>(sql: sql, param: p, commandType: CommandType.StoredProcedure).FirstOrDefault();
 
-                    int idusuario = p.Get<int>("@IDUSER");
+                    int idusuario = p.Get<int>("@USERID");
                     if (idusuario > 0)
                     {
                         response.issuccess = true;

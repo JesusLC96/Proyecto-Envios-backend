@@ -7,7 +7,6 @@ go
 insert into TM_USER(USERNAME, PASSWORD, NAME, LASTNAME, BIRTH,PHONE, EMAIL) values('jperez','987654','Juan','Pérez','1985-07-23', '987654321','jperez@envios.pe'); 
 go
 
-
 insert into TM_USER(USERNAME, PASSWORD, NAME, LASTNAME, BIRTH,PHONE, EMAIL) values('mescobar','147852','Martin','Escobar','1998-02-23', '947856321','mescobar@envios.pe'); 
 go
 
@@ -45,7 +44,7 @@ go
 /*//////////////////// ESTADOS DE ENVIO //////////////////////////////// */
 
 insert into ESTADO_ENVIO (NOMBRE_ESTADO, DESC_ESTADO) 
-values ('Recibido','Se recibió solicitud de envio');
+values ('Registrado','Se recibió solicitud de envio');
 go
 
 insert into ESTADO_ENVIO (NOMBRE_ESTADO, DESC_ESTADO) 
