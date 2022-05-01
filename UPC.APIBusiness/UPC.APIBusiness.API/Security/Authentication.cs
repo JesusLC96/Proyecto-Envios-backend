@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace UPC.E31A.APIBusiness.API.Security
+namespace API.Security
 {
     /// <summary>
     /// 
@@ -17,7 +17,7 @@ namespace UPC.E31A.APIBusiness.API.Security
         /// 
         /// </summary>
         /// <returns></returns>
-        public async Task<string> GenerateToken(string numeroDocumento, string codigoUsuario)
+        public async Task<string> GenerateToken(string userid, string username)
         {
             var client = new HttpClient();
 
@@ -29,7 +29,7 @@ namespace UPC.E31A.APIBusiness.API.Security
                      Policy = {
                         ValidateIssuerName = false,
                         ValidateEndpoints = false,
-                        RequireHttps = false   // Remover en Certificacion / Produccion
+                        RequireHttps = false 
                      }
                  }
                 );
@@ -46,8 +46,8 @@ namespace UPC.E31A.APIBusiness.API.Security
                     Scope = "email",
                     Parameters =
                     {
-                        { "client_numero_documento", $"{numeroDocumento}"},
-                        { "client_codigo_usuario", $"{codigoUsuario}" }
+                        { "client_codigo_usuario", $"{userid}"},
+                        { "client_username_usuario", $"{username}" }
                     }
                 });
 

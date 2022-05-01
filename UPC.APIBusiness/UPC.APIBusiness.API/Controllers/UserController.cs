@@ -10,6 +10,8 @@ using System.Net;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using API.Security;
+
 
 namespace API
 {
@@ -90,14 +92,14 @@ namespace API
             {
                 var loginresponse = ret.data as EntityLoginResponse;
                 var userid = loginresponse.iduser.ToString();
-                var userdni = loginresponse.email;
+                var username = loginresponse.username;
 
-                //var token = JsonConvert.DeserializeObject<AccessToken>
-                  //  (
-                  //      await new Authentication().GenerateToken(userdni, userid)
-                 //   ).access_token;
+                var token = JsonConvert.DeserializeObject<AccessToken>
+                    (
+                        await new Authentication().GenerateToken(userid, username)
+                    ).access_token;
 
-                //loginresponse.token = token;
+                loginresponse.token = token;
                 ret.data = loginresponse;
 
 

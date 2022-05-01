@@ -263,6 +263,42 @@
             <param name="cancellationToken"></param>
             <returns></returns>
         </member>
+        <member name="T:API.Security.AccessToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Security.AccessToken.access_token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Security.AccessToken.token_type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Security.AccessToken.scope">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:API.Security.AccessToken.expires_in">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:API.Security.Authentication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:API.Security.Authentication.GenerateToken(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:API.Startup">
             <summary>
             /
@@ -305,42 +341,6 @@
             <returns></returns>
         </member>
         <member name="M:UPC.APIBusiness.API.Controllers.EnviosController.GetEnvioxUsuario(System.Int32)">
-            <summary>
-            
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:UPC.E31A.APIBusiness.API.Security.AccessToken">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:UPC.E31A.APIBusiness.API.Security.AccessToken.access_token">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:UPC.E31A.APIBusiness.API.Security.AccessToken.token_type">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:UPC.E31A.APIBusiness.API.Security.AccessToken.scope">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:UPC.E31A.APIBusiness.API.Security.AccessToken.expires_in">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:UPC.E31A.APIBusiness.API.Security.Authentication">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:UPC.E31A.APIBusiness.API.Security.Authentication.GenerateToken(System.String,System.String)">
             <summary>
             
             </summary>
