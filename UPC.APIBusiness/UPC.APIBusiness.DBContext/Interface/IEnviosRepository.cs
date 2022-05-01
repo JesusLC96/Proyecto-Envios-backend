@@ -10,5 +10,7 @@ namespace DBContext
     {
         EntityBaseResponse GetEnvios();
         EntityBaseResponse GetEnvioxUsuario(int id);
+
+        EntityBaseResponse RegistrarNuevoEnvio(EntityEnvio nuevo_envio);
     }
 }

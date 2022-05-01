@@ -105,6 +105,7 @@ GO
 /* REGISTRAR PEDIDO*/
 CREATE PROC usp_Registrar_Nuevo_Pedido
 (
+	@COD_ORDEN 	VARCHAR(15) OUTPUT, 
 	@IDUSER		INT,
 	@SRC_ADD	VARCHAR(64),
 	@DEST_ADD	VARCHAR(128),
@@ -113,7 +114,7 @@ CREATE PROC usp_Registrar_Nuevo_Pedido
 	@PAQUETE	VARCHAR(256)
 )
 AS
-	DECLARE @contador INT;
+	DECLARE @contador INT
 	DECLARE @codorden VARCHAR (15)  
 	SET @contador = (SELECT COUNT(*)+1 FROM TM_ENVIO) 
 	SET @codorden = CONCAT('C-000',@contador)
@@ -134,6 +135,8 @@ AS
 			@WEIGHT,
 			@PAQUETE,
 			1)
+			
+	SET @COD_ORDEN = @codorden
 GO
 
 /* LOGIN USER*/
