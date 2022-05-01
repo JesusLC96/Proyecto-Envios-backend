@@ -108,15 +108,16 @@ namespace DBContext
                 using (var db = GetSqlConnectionEnvios())
                 {
                     const string sql = "usp_Registrar_Usuario";
+
                     var p = new DynamicParameters();
                     p.Add(name: "@USERID", dbType: DbType.Int32, direction: ParameterDirection.Output);
-                    p.Add(name: "@USERNAME", dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@PASSWORD", dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@NAME", dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@LASTNAME", dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@BIRTH", dbType: DbType.Date, direction: ParameterDirection.Input);
-                    p.Add(name: "@PHONE", dbType: DbType.String, direction: ParameterDirection.Input);
-                    p.Add(name: "@EMAIL", dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@USERNAME", value: user.username, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@PASSWORD", value: user.password, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@NAME", value: user.name, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@LASTNAME", value: user.lastname, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@BIRTH", value: user.birth, dbType: DbType.Date, direction: ParameterDirection.Input);
+                    p.Add(name: "@PHONE", value: user.phone, dbType: DbType.String, direction: ParameterDirection.Input);
+                    p.Add(name: "@EMAIL", value: user.email, dbType: DbType.String, direction: ParameterDirection.Input);
 
                     db.Query<EntityUser>(sql: sql, param: p, commandType: CommandType.StoredProcedure).FirstOrDefault();
 

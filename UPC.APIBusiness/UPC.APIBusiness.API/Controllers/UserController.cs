@@ -19,7 +19,7 @@ namespace API
     /// 
     /// </summary>
     [Produces("application/json")]
-    [Route("api/login")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : Controller
     {
