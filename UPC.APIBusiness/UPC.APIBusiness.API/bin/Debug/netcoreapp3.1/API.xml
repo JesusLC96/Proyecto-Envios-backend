@@ -76,6 +76,24 @@
             
             </summary>
         </member>
+        <member name="M:API.Controllers.EnviosController.#ctor(DBContext.IEnviosRepository)">
+            <summary>
+            
+            </summary>
+            <param name="enviosRepository"></param>
+        </member>
+        <member name="M:API.Controllers.EnviosController.GetEnvios">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.EnviosController.GetEnvioxUsuario(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:API.UserController">
             <summary>
             
@@ -327,24 +345,6 @@
             </summary>
             <param name="app"></param>
             <param name="env"></param>
-        </member>
-        <member name="M:UPC.APIBusiness.API.Controllers.EnviosController.#ctor(DBContext.IEnviosRepository)">
-            <summary>
-            
-            </summary>
-            <param name="enviosRepository"></param>
-        </member>
-        <member name="M:UPC.APIBusiness.API.Controllers.EnviosController.GetEnvios">
-            <summary>
-            
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:UPC.APIBusiness.API.Controllers.EnviosController.GetEnvioxUsuario(System.Int32)">
-            <summary>
-            
-            </summary>
-            <returns></returns>
         </member>
     </members>
 </doc>

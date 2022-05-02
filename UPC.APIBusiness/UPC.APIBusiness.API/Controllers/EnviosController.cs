@@ -10,8 +10,10 @@ using System.Net;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using API.Security;
+using System;
 
-namespace UPC.APIBusiness.API.Controllers
+namespace API.Controllers
 {
     public class EnviosController : Controller
     {
@@ -31,12 +33,22 @@ namespace UPC.APIBusiness.API.Controllers
         /// </summary>
         /// <returns></returns>
         [Produces("application/json")]
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet]
         [Route("listarenvios")]
         public ActionResult GetEnvios()
         {
-            var ret = __EnviosRepository.GetEnvios();
+            //var accessToken = Request.Headers["Authorization"];
+            
+            var identity = User.Identity as ClaimsIdentity;
+            IEnumerable<Claim> claims = identity.Claims;
+
+            var userid = claims.Where(p => p.Type == "client_client_codigo_usuario").FirstOrDefault()?.Value;
+
+            //var ret = __EnviosRepository.GetEnvios();
+
+            var ret = __EnviosRepository.GetEnvioxUsuario(int.Parse(userid));
+
             return Json(ret);
         }
 
