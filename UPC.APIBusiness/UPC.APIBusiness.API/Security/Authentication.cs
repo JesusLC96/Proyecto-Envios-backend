@@ -51,6 +51,7 @@ namespace API.Security
                     }
                 });
 
+
                 if (tokenResponse.IsError)
                 {
                     return tokenResponse.Error;
