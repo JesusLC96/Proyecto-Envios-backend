@@ -42,9 +42,7 @@ namespace API.Controllers
             
             var identity = User.Identity as ClaimsIdentity;
             IEnumerable<Claim> claims = identity.Claims;
-
             var userid = claims.Where(p => p.Type == "client_client_codigo_usuario").FirstOrDefault()?.Value;
-
             //var ret = __EnviosRepository.GetEnvios();
 
             var ret = __EnviosRepository.GetEnvioxUsuario(int.Parse(userid));

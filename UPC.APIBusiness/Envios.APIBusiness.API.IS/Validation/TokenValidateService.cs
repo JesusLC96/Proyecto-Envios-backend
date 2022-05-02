@@ -37,8 +37,8 @@ namespace API.IS
             var userid = context.Result.ValidatedRequest.Raw.Get("client_codigo_usuario");
             var username = context.Result.ValidatedRequest.Raw.Get("client_username_usuario");
             context.Result.ValidatedRequest.Client.AlwaysSendClientClaims = true;
-            context.Result.ValidatedRequest.ClientClaims.Add(new Claim("client_codigo_usuario", userid));
-            context.Result.ValidatedRequest.ClientClaims.Add(new Claim("client_username_usuario", username));
+            context.Result.ValidatedRequest.ClientClaims.Add(new Claim("codigo_usuario", userid));
+            context.Result.ValidatedRequest.ClientClaims.Add(new Claim("username_usuario", username));
             return Task.FromResult(0);
         }
     }
