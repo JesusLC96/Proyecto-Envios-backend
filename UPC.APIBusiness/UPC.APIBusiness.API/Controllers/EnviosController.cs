@@ -65,5 +65,24 @@ namespace API.Controllers
             var ret = __EnviosRepository.GetEnvioxUsuario(id);
             return Json(ret);
         }
+
+
+        [Produces("application/json")]
+        [Authorize]
+        [HttpPost]
+        [Route("registrarNuevoEnvio")]
+        public ActionResult RegistrarNuevoEnvio(EntityEnvio nuevo_envio)
+        {
+
+            var identity = User.Identity as ClaimsIdentity;
+            IEnumerable<Claim> claims = identity.Claims;
+
+            var userid = claims.Where(p => p.Type == "client_client_codigo_usuario").FirstOrDefault()?.Value;
+
+            nuevo_envio.iduser = int.Parse(userid);
+
+            var ret = __EnviosRepository.RegistrarNuevoEnvio(nuevo_envio);
+            return Json(ret);
+        }
     }
 }
