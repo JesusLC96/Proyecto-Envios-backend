@@ -107,9 +107,10 @@ namespace DBContext
             {
                 using (var db = GetSqlConnectionEnvios())
                 {
-                    const string sql = "usp_Registrar_Nuevo_Pedido";
-                    var p = new DynamicParameters();
-                    p.Add(name: "@COD_ORDEN", value: nuevo_envio.cod_orden, dbType: DbType.String, direction: ParameterDirection.Output);
+                    const string sql = "usp_Registrar_Nuevo_Pedido2";
+                    var p = new DynamicParameters();              
+
+                    p.Add(name: "@COD_ORDEN", dbType: DbType.Int32, direction: ParameterDirection.Output);
                     p.Add(name: "@IDUSER", value: nuevo_envio.iduser, dbType: DbType.Int32, direction: ParameterDirection.Input);
                     p.Add(name: "@SRC_ADD", value: nuevo_envio.src_add, dbType: DbType.String, direction: ParameterDirection.Input);
                     p.Add(name: "@DEST_ADD", value: nuevo_envio.dest_add, dbType: DbType.String, direction: ParameterDirection.Input);
@@ -117,17 +118,17 @@ namespace DBContext
                     p.Add(name: "@WEIGHT", value: nuevo_envio.weight, dbType: DbType.Decimal, direction: ParameterDirection.Input);
                     p.Add(name: "@PAQUETE", value: nuevo_envio.paquete, dbType: DbType.String, direction: ParameterDirection.Input);
 
-                    db.Query<EntityUser>(sql: sql, param: p, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                    db.Query<EntityEnvio>(sql: sql, param: p, commandType: CommandType.StoredProcedure).FirstOrDefault();
 
-                    String cod_orden = p.Get<string>("@COD_ORDEN");
+                    var cod_orden = p.Get<int>("@COD_ORDEN");
+                    string codigo_orden = "C-000" + cod_orden;
 
-                    if (cod_orden != string.Empty)
+                    if (codigo_orden != string.Empty)
                     {
-
                         response.issuccess = true;
                         response.errorcode = "0000";
                         response.errormessage = string.Empty;
-                        response.data = new { cod_orden = nuevo_envio.cod_orden };
+                        response.data = new { numero_orden = codigo_orden };
                     }
                     else
                     {

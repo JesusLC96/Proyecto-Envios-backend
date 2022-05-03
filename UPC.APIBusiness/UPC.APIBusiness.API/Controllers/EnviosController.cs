@@ -15,6 +15,9 @@ using System;
 
 namespace API.Controllers
 {
+    [Produces("application/json")]
+    [Route("api/envios")]
+    [ApiController]
     public class EnviosController : Controller
     {
         protected readonly IEnviosRepository __EnviosRepository;
